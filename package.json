@@ -1,0 +1,36 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "* [javascript设计模式 - :pig:的丛书学习笔记](http://hollton.github.io/2017/02/25/javascript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/) * [JavaScript 设计模式 - W3Cschool](https://www.w3cschool.cn/zobyhd/) * [设计模式 - JAVA版](http://www.runoob.com/design-pattern/design-pattern-tutorial.html) * [JavaScript-Design-Patterns - 讲解含代码](https://github.com/wchaowu/javascript/tree/master/JavaScript-Design-Patterns)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icecreamk/design-pattern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icecreamk/design-pattern/issues"
+  },
+  "homepage": "https://github.com/icecreamk/design-pattern#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "javascript-state-machine": "^3.0.1",
+    "jquery": "^3.3.1"
+  }
+}
